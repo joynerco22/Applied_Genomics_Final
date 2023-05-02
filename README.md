@@ -6,7 +6,7 @@ This repository contains my final project information stored into several direct
 
 - **HTARGfinder pipeline:** https://github.com/Badhan023/HTARGfinder/blob/main/README.md 
 - **Humann3 pipeline:** https://huttenhower.sph.harvard.edu/humann/ 
-- **GO-Figure pipeline:** ttps://gitlab.com/evogenlab/GO-Figure
+- **GO-Figure pipeline:** https://gitlab.com/evogenlab/GO-Figure
 
 ### bin
 This folder contains scripts used during the analysis
