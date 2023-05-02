@@ -32,10 +32,13 @@ MetaCHIP BP -p $1 -r c -t 6
 
 
 #DIAMOND
+## Diamond search against the ARGDB
 diamond blastx -q ${1}_MetaCHIP_wd/${1}_HGT_*/${1}*BM_nc.fasta -d reference_ARG -o ${1}_diamond_out_default_ARGDB.tsv
-
+## Diamond search against the BacMet Database
 diamond blastx -q ${1}_MetaCHIP_wd/${1}_HGT_*/${1}*BM_nc.fasta  -d reference_BacMet -o ${1}_diamond_out_default_BacMet.tsv
-diamond blastx -q MetaCHIP-Directory/${1}_Workspace/${1}_MetaCHIP_wd/${1}_HGT_*/${1}*BM_nc.fasta  -d BacMet2_PRE.155512.mapping.txt.dmnd --daa ${1}_Bacmet_search.results 
+##ignore this script
+##diamond blastx -q MetaCHIP-Directory/${1}_Workspace/${1}_MetaCHIP_wd/${1}_HGT_*/${1}*BM_nc.fasta  -d BacMet2_PRE.155512.mapping.txt.dmnd --daa ${1}_Bacmet_search.results 
+##Diamond search against CARD database
 diamond blastx -q ${1}_MetaCHIP_wd/${1}_HGT_*/${1}*BM_nc.fasta -d reference_CARD -o ${1}_diamond_out_default_CARD.tsv
 echo "DIAMOND done"
 
