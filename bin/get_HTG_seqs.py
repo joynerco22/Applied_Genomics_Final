@@ -6,10 +6,10 @@ parser = argparse.ArgumentParser()
 parser.add_argument('header_ids', nargs='+', help='list of header IDs')
 args = parser.parse_args()
 
-# replace 'sequences.fasta' with the filename of your multi-fasta file
+# map the filename to the first command line argument provided
 filename = sys.argv[1]
 
-# read in the fasta file
+# read in the multi-fasta file
 records = list(SeqIO.parse(filename, 'fasta'))
 
 # define a function to retrieve the amino acid sequences for a list of header IDs
@@ -28,7 +28,7 @@ def get_aa_sequences(header_ids):
             aa_sequences[header_id] = None
     return aa_sequences
 
-# example usage: retrieve the amino acid sequences for a list of header IDs
+# retrieve the amino acid sequences for header IDs of interest
 header_ids = args.header_ids
 aa_sequences = get_aa_sequences(header_ids)
 for header_id, aa_sequence in aa_sequences.items():
