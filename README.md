@@ -2,10 +2,11 @@
 
 
 ## BIOL 6220 Spring 2023 Final Project: Microbial Community Profiling
-This repository contains my final project information stored into several directories. Please see below for a detailed list of their contents. Environmental microbes have vast metabolic capabilities but their interactions with anthropogenic contaminants are still understudied. Although many microbes can naturally produce antimicrobial compounds, many of their genetic machinery comes from contact with the compound in the environment and selection events. This project looked into a single sample taken from an intertidal mixing zone in Cape Shores, Delaware with the goal of quantifying gene family abundance for heavy metal and antimicrobial resistance genes. Out of curiosity, the sample was also analyzed for horizontal gene transfer using the HTARGfinder pipeline. Gene Ontology results were visualized using the GO-finder pipeline.
+This repository contains my final project information stored into several directories. Please see below for a detailed list of their contents. Environmental microbes have vast metabolic capabilities but their interactions with anthropogenic contaminants are still understudied. Although many microbes can naturally produce antimicrobial compounds, many of their genetic machinery comes from contact with the compound in the environment and selection events. This project looked into a single sample taken from an intertidal mixing zone in Cape Shores, Delaware with the goal of quantifying gene family abundance for heavy metal and antimicrobial resistance genes. Out of curiosity, the sample was also analyzed for horizontal gene transfer using the HTARGfinder pipeline. Gene Ontology results were visualized using the GO-figure pipeline.
 
-- HTARGfinder pipeline: https://github.com/Badhan023/HTARGfinder/blob/main/README.md 
-  Humann3 pipeline: https://huttenhower.sph.harvard.edu/humann/ 
+- **HTARGfinder pipeline:** https://github.com/Badhan023/HTARGfinder/blob/main/README.md 
+- **Humann3 pipeline:** https://huttenhower.sph.harvard.edu/humann/ 
+- **GO-Figure pipeline:** ttps://gitlab.com/evogenlab/GO-Figure
 
 ### bin
 This folder contains scripts used during the analysis
