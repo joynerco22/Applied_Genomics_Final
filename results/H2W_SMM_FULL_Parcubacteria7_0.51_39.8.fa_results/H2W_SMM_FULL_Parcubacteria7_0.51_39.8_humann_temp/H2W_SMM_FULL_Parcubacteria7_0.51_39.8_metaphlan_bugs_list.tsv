@@ -1,0 +1,6 @@
+#mpa_vJan21_CHOCOPhlAnSGB_202103
+#/home/joynerco22/miniconda3/envs/biobakery3/bin/metaphlan /home/joynerco22/humann-3.6.1/H2W_bins_dir/H2W_SMM_FULL_Parcubacteria7_0.51_39.8.fa --index mpa_vJan21_CHOCOPhlAnSGB_202103 -o /home/joynerco22/humann-3.6.1/H2W_SMM_FULL_Parcubacteria7_0.51_39.8.fa_results/H2W_SMM_FULL_Parcubacteria7_0.51_39.8_humann_temp/H2W_SMM_FULL_Parcubacteria7_0.51_39.8_metaphlan_bugs_list.tsv --input_type fasta --bowtie2out /home/joynerco22/humann-3.6.1/H2W_SMM_FULL_Parcubacteria7_0.51_39.8.fa_results/H2W_SMM_FULL_Parcubacteria7_0.51_39.8_humann_temp/H2W_SMM_FULL_Parcubacteria7_0.51_39.8_metaphlan_bowtie2.txt --nproc 8
+#60 reads processed
+#SampleID	Metaphlan_Analysis
+#clade_name	NCBI_tax_id	relative_abundance	additional_species
+UNCLASSIFIED	-1	100.0	

@@ -1,0 +1,9 @@
+,Gene_1,Gene_2,Identity,end_match,full_length_match,direction
+0,Bacteria11_00291,Bacteria24_00335,76.58,no,no,Bacteria11-->Bacteria24
+20,Bacteria9_00334,Gamma1_01627,76.923,no,no,Bacteria9-->Gamma1
+21,Bacteria9_00456,Gamma1_02611,77.51,no,no,Bacteria9-->Gamma1
+27,Gamma1_03766,Delta1_00942,75.931,no,no,Gamma1-->Delta1
+48,Parcubacteria4_00525,SR1_00241,77.505,no,no,Parcubacteria4-->SR1
+51,Parcubacteria9_00053,Unknown6_00147,73.409,no,no,Parcubacteria9-->Unknown6
+53,Unknown18_00108,Unknown20_01153,74.868,no,no,Unknown18-->Unknown20
+58,Unknown3_01501,Bacteria27_00997,74.708,no,no,Bacteria27-->Unknown3

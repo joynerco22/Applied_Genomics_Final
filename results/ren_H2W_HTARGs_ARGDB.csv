@@ -1,0 +1,5 @@
+,Gene_1,Gene_2,Identity,end_match,full_length_match,direction
+11,Bacteria26_00027,Parcubacteria6_00686,73.32,no,no,Bacteria26-->Parcubacteria6
+12,Bacteria26_00084,Parcubacteria6_00686,73.192,no,no,Bacteria26-->Parcubacteria6
+27,Gamma1_03766,Delta1_00942,75.931,no,no,Gamma1-->Delta1
+49,Parcubacteria8_00113,Bacteria24_00292,73.115,no,no,Parcubacteria8-->Bacteria24
