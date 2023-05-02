@@ -26,3 +26,4 @@ This folder contains output results from both HumanN 3 and the HTARGfinder pipel
 - The Unnamed gene families file
 - Diamond BLAST results after searching the horizontal gene transfer results against the BacMet, ARGDB, and CARD databases, respectively.
 - The DIAMOND BLAST results prior to filtering from the BacMet, ARGDB, and CARD databases, respectively. 
+- Cluster plots of biological processes, cellular components and molecular functions generated with GO-figure. 
