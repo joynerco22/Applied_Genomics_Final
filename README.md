@@ -13,6 +13,7 @@ This folder contains scripts used during the analysis
 - **get_HTG_seqs.py:** Script I created to retrieve amino acid sequences from an input of header IDs and their output .txt file from MetaCHIP
 - **humann_for_loop.sh:** For loop used to automate the HumanN pipeline over 144 genomes 
 - **pipeline_from_gtdbtk.sh:** Pipeline used to analyze and cross-check horizontally transferred genes against the BacMet, CARD and ARG databases.
+- **GO_FINDER_SCRIPT.sh** Script used to run GO-finder with specific GO-terms of interest
 
 ### data
 This folder contains input data used in the analysis. It contains one representative genome from the analysis as an example. 
